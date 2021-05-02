@@ -9,6 +9,7 @@ import ClearIcon from '@material-ui/icons/Clear';
 const Cart = () =>{
     const [iscart, setIscart] = useState(false);
     const [blist, setBlist] = useState([]);
+    const [itemprice, setItemprice] = useState();
     const [totalprice, setTotalprice] = useState();
     const [checkList, setCheckList] = useState([]);
 
@@ -111,6 +112,9 @@ const Cart = () =>{
                         <Button color="secondary"><AddIcon onClick={()=>changePlusCnt(item)}/></Button>
                     </div>
                 </div>
+            </div>
+            <div className="d-flex justify-content-end">
+                <span className="cart_text">합계:{item.price*item.cnt}</span>
             </div>
         </div>
     )
