@@ -1,0 +1,23 @@
+.list_header{
+    text-align: center;
+    font-size: 1.7rem;
+    font-weight: bold;
+    margin: 10vh 0;
+}
+
+.list_img{
+    min-width: 160px;
+    max-width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 5%;
+}
+
+.item_list{
+    margin: 0 28px;
+}
+
+.list_price{
+    font-size: 1.2rem;
+    font-weight: bold;
+}

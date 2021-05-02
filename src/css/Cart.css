@@ -1,0 +1,48 @@
+.cart_Title{
+    font-size: 2rem;
+    font-weight: bold;
+    margin: 20px 10px;
+}
+
+.li_box{
+    border: 1px solid black;
+    padding: 15px;
+}
+
+.cart_img{
+    width: 100px;
+    height: 100px;
+    border-radius: 5%;
+    margin-right: 20px;
+}
+
+.cart_name {
+    margin-left: 10px;
+    font-size: 1.1rem;
+}
+
+.cart_text {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.btn_group {
+    margin-top:20px;
+    border: 1px solid rgb(163, 163, 163);
+    border-radius: 5%;
+}
+
+.cart_pricetext{
+    font-size: 1.2rem;
+}
+
+.cart_price {
+    font-size: 1.7rem;
+    font-weight: bold;
+    color: red;
+    margin: 0 30px;
+}
+
+.MuiButton-label {
+    font-size: 1.5rem;
+}

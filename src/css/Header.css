@@ -1,0 +1,40 @@
+.basket{
+    text-align: end;
+    padding-right:5%;
+    background-color: rgb(161, 161, 161);
+    padding-bottom: 5px;
+}
+
+.basket_m {
+    text-align: end;
+    padding-right: 5%;
+}
+
+.Header_title{
+    text-decoration: none !important;
+    color: black;
+}
+
+.HeaderImg {
+    display: block;
+    margin: 15px auto;
+    width: 200px;
+    height: auto;
+}
+
+.HeaderImg_m{
+    width:200px;
+}
+
+.imgcontainer{
+    height: 17vh;
+    border-bottom: 1px solid rgb(173, 173, 173);
+}
+.basket_badge{
+    margin-right: 15px;
+}
+
+.mobile{
+    padding: 40px 0 20px 20px;
+    height: 30vh;
+}
